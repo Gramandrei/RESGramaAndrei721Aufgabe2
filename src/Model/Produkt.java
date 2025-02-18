@@ -1,11 +1,11 @@
 package Model;
 
-public class Produkte {
+public class Produkt {
     private String name;
     private double price;
     private String region;
 
-    public Produkte(String name, double price, String region) {
+    public Produkt(String name, double price, String region) {
         this.name = name;
         this.price = price;
         this.region = region;

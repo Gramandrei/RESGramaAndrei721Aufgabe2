@@ -8,7 +8,7 @@ public class Charakter {
     private int id;
     private String name;
     private String location;
-    private List<Produkte> purchasedProducts;
+    private List<Produkt> purchasedProducts;
 
     public Charakter(int id, String name, String location) {
         this.id = id;
@@ -41,11 +41,11 @@ public class Charakter {
         this.location = location;
     }
 
-    public List<Produkte> getPurchasedProducts() {
+    public List<Produkt> getPurchasedProducts() {
         return purchasedProducts;
     }
 
-    public void addProduct(Produkte product) {
+    public void addProduct(Produkt product) {
         this.purchasedProducts.add(product);
     }
 
