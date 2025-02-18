@@ -53,5 +53,9 @@ public class Charakter {
     public String toString() {
         return "Character{id=" + id + ", name='" + name + "', location='" + location + "', purchasedProducts=" + purchasedProducts + "}";
     }
+
+    public void kaufeProdukt(Produkt produkt) {
+        purchasedProducts.add(produkt);
+    }
 }
 
